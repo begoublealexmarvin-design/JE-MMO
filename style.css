@@ -360,6 +360,50 @@ footer {
     color: #0b5fa5;
     margin-bottom: 10px;
 }
+/* ===== MENU TOGGLE (mobile) ===== */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Navigation normale */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* ===== VERSION MOBILE ===== */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        background: #0b5fa5;
+        margin-top: 15px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav.active {
+        display: block;
+    }
+}
+
 
 
 
