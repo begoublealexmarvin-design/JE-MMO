@@ -23,7 +23,7 @@ section {
 
 /* ===== HEADER ===== */
 header {
-    background: #0b5fa5;
+    background: white;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -136,7 +136,7 @@ nav ul li a:hover {
 
 /* ===== FOOTER ===== */
 footer {
-    background: #0b5fa5;
+    background: white;
     color: white;
     text-align: center;
     padding: 20px;
