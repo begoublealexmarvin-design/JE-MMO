@@ -38,7 +38,7 @@ header .container {
 }
 
 .logo-area img {
-    height: 50px;
+    height: 90px;
     width: auto;
 }
 
@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #f4f6f9;;
     text-decoration: none;
     font-weight: 500;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover {
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: white;
+    color: #f4f6f9;
     cursor: pointer;
 }
 
@@ -137,7 +137,7 @@ nav ul li a:hover {
 /* ===== FOOTER ===== */
 footer {
     background: white;
-    color: white;
+    color: #f4f6f9;
     text-align: center;
     padding: 20px;
 }
