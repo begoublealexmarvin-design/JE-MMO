@@ -80,7 +80,7 @@ nav ul li a:hover {
 /* ===== HERO ===== */
 .hero {
     background: linear-gradient(120deg, #0b5fa5, #d32f2f);
-    color: white;
+    color: #d32f2f;
     text-align: center;
     padding: 140px 20px;
 }
