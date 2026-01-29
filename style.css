@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f4f6f9;
+    background: blue;
     color: #333;
     line-height: 1.7;
 }
@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #f4f6f9;;
+    color: blue;
     text-decoration: none;
     font-weight: 500;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover {
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: #f4f6f9;
+    color: blue;
     cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ nav ul li a:hover {
 
 /* ===== FOOTER ===== */
 footer {
-    background: white;
+    background: red;
     color: #f4f6f9;
     text-align: center;
     padding: 20px;
