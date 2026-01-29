@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | JE-MMO</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -44,7 +46,7 @@
         <div class="contact-container">
 
             <!-- Formulaire -->
-            <form class="contact-form">
+<form class="contact-form" data-aos="fade-right">
                 <input type="text" placeholder="Votre nom" required>
                 <input type="email" placeholder="Votre email" required>
                 <input type="tel" placeholder="Téléphone">
@@ -53,7 +55,7 @@
             </form>
 
             <!-- Informations de contact -->
-            <div class="contact-info">
+<div class="contact-info" data-aos="fade-left">
                 <h3>Nos coordonnées</h3>
                 <p><strong>Email :</strong> contact@jemmo.org</p>
                 <p><strong>Téléphone :</strong> +225 00 00 00 00</p>
@@ -68,6 +70,14 @@
     <footer>
         <p>© 2026 JE-MMO - Tous droits réservés</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
 
 </body>
 </html>

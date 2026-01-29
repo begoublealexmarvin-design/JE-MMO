@@ -6,6 +6,7 @@
     <title>JE-MMO | Organisation d'Étudiants en Finance</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 
 </head>
 <body>
@@ -38,7 +39,7 @@
 
     <!-- ===== HERO SECTION ===== -->
     <section class="hero">
-        <div class="hero-content">
+        <div class="hero-content" data-aos="fade-up">
         <h2>Des solutions financières et économiques pour accompagner votre organisation</h2>
 <p>JE-MMO met les compétences d’étudiants en finance au service des entreprises, ONG et petits business.</p>
 <a href="#" class="btn">Découvrir nos services</a>
@@ -49,7 +50,7 @@
     <section class="services">
         <h2>Nos principaux services</h2>
         <div class="service-boxes">
-            <div class="box">
+<div class="box" data-aos="zoom-in">
                 <h3>Gestion financière</h3>
                 <p>Organisation et suivi des finances de votre activité.</p>
             </div>
@@ -69,6 +70,13 @@
         <p>© 2026 JE-MMO - Tous droits réservés</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
 </body>
 </html>

@@ -403,6 +403,37 @@ nav ul {
         display: block;
     }
 }
+.about {
+    background: #ffffff;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 20px auto 50px;
+}
+
+.mvv-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mvv-box {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #0b5fa5;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.mvv-box:hover {
+    transform: translateY(-5px);
+}
+
 
 
 

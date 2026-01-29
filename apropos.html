@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos | JE-MMO</title>
-    <link rel="stylesheet" href="style.css">
+    <title>À propos - JE-MMO</title>
+
+    <!-- Police moderne -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Animation AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 </head>
 <body>
-<!-- ===== HEADER ===== -->
-   <header>
+
+<header>
     <div class="container">
         <div class="logo-area">
-            <img src="images/JE-MMO.png" alt="">
+            <img src="images/JE-MO.jpeg" alt="Logo JE-MMO">
         </div>
 
-        <!-- Bouton menu mobile -->
-        <div class="menu-toggle" id="menu-toggle">
-            ☰
-        </div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
 
         <nav id="navbar">
             <ul>
@@ -33,48 +36,67 @@
     </div>
 </header>
 
-    <!-- ===== SECTION À PROPOS ===== -->
-    <section class="about">
-        <div class="about-container">
-            <h2>Qui sommes-nous ?</h2>
-            <p>
-                JE-MMO est une organisation composée d’étudiants spécialisés en finance et en économie.
-                Nous mettons nos compétences académiques et pratiques au service des entreprises,
-                ONG et entrepreneurs afin de les aider à mieux gérer leurs activités financières.
-            </p>
+<!-- SECTION À PROPOS -->
+<section class="about">
+    <div class="container">
 
-            <h3>🎯 Notre mission</h3>
-            <div class="mvv-box">
+        <h2 data-aos="fade-up">Qui sommes-nous ?</h2>
+
+        <p class="about-text" data-aos="fade-up">
+            JE-MMO est une organisation d’étudiants passionnés par la finance, 
+            l’économie et la gestion. Notre objectif est d’accompagner les organisations 
+            et les entreprises à travers des services professionnels, des analyses 
+            financières et des formations pratiques.
+        </p>
+
+        <div class="mvv-container">
+
+            <!-- Mission -->
+            <div class="mvv-box" data-aos="fade-right">
+                <h3>Notre Mission</h3>
                 <p>
-                    Accompagner les organisations dans la gestion financière, la comptabilité,
-                    l’analyse économique et le développement de leurs performances.
+                    Apporter un appui professionnel aux organisations en proposant des 
+                    services financiers, des études comptables et des formations en business.
                 </p>
             </div>
 
-            <h3>🌍 Notre vision</h3>
-            <div class="mvv-box">
+            <!-- Vision -->
+            <div class="mvv-box" data-aos="fade-left">
+                <h3>Notre Vision</h3>
                 <p>
-                    Devenir une référence étudiante dans l’accompagnement financier et économique
-                    des petites structures et organisations locales.
+                    Devenir une référence estudiantine dans le domaine du conseil en 
+                    finance et en économie en offrant des solutions fiables et innovantes.
                 </p>
             </div>
 
-            <h3>💡 Nos valeurs</h3>
-            <div class="mvv-box">
-                <ul>
-                    <li>Professionnalisme</li>
-                    <li>Responsabilité</li>
-                    <li>Innovation</li>
-                    <li>Esprit d’équipe</li>
-                </ul>
+            <!-- Valeurs -->
+            <div class="mvv-box" data-aos="zoom-in">
+                <h3>Nos Valeurs</h3>
+                <p>
+                    Professionnalisme, intégrité, esprit d’équipe, innovation et 
+                    engagement envers la réussite de nos clients.
+                </p>
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- ===== FOOTER ===== -->
-    <footer>
-        <p>© 2026 JE-MMO - Tous droits réservés</p>
-    </footer>
+<footer>
+    <p>© 2026 JE-MMO — Tous droits réservés</p>
+</footer>
+
+<!-- Script menu mobile -->
+<script src="script.js"></script>
+
+<!-- Script animation -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
 
 </body>
 </html>
