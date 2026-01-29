@@ -136,7 +136,7 @@ nav ul li a:hover {
 
 /* ===== FOOTER ===== */
 footer {
-    background: red;
+        background: linear-gradient(45deg, #d32f2f, #ff5252);
     color: #f4f6f9;
     text-align: center;
     padding: 20px;
