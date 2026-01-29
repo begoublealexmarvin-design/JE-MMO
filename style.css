@@ -39,7 +39,9 @@ header .container {
 
 .logo-area img {
     height: 50px;
+    width: auto;
 }
+
 
 nav ul {
     list-style: none;
