@@ -1,83 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | JE-MMO</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - JE-MMO</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-   <!-- ===== HEADER ===== -->
-   <header>
-    <div class="container">
-        <div class="logo-area">
-            <img src="images/JE-MMO.png" alt="">
-        </div>
-
-        <!-- Bouton menu mobile -->
-        <div class="menu-toggle" id="menu-toggle">
-            ☰
-        </div>
-
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="apropos.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Équipe</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+<header>
+<div class="container">
+<div class="logo-area"><img src="images/JE-MO.jpeg"></div>
+<div class="menu-toggle" id="menu-toggle">☰</div>
+<nav id="navbar">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="apropos.html">À propos</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
 </header>
 
-    <!-- ===== SECTION CONTACT ===== -->
-    <section class="contact-section">
-        <h2>Contactez JE-MMO</h2>
-        <p class="contact-intro">
-            Besoin d’un service financier ou économique ? Notre équipe est à votre disposition.
-        </p>
+<section>
+<h2>Contactez-nous</h2>
+<form class="contact-form">
+<input type="text" placeholder="Nom">
+<input type="email" placeholder="Email">
+<textarea placeholder="Message"></textarea>
+<button class="btn">Envoyer</button>
+</form>
+</section>
 
-        <div class="contact-container">
-
-            <!-- Formulaire -->
-<form class="contact-form" data-aos="fade-right">
-                <input type="text" placeholder="Votre nom" required>
-                <input type="email" placeholder="Votre email" required>
-                <input type="tel" placeholder="Téléphone">
-                <textarea placeholder="Décrivez votre besoin..." rows="5" required></textarea>
-                <button type="submit" class="btn">Envoyer la demande</button>
-            </form>
-
-            <!-- Informations de contact -->
-<div class="contact-info" data-aos="fade-left">
-                <h3>Nos coordonnées</h3>
-                <p><strong>Email :</strong> contact@jemmo.org</p>
-                <p><strong>Téléphone :</strong> +225 00 00 00 00</p>
-                <p><strong>WhatsApp :</strong> +225 00 00 00 00</p>
-                <p><strong>Adresse :</strong> Côte d’Ivoire</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ===== FOOTER ===== -->
-    <footer>
-        <p>© 2026 JE-MMO - Tous droits réservés</p>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-</script>
-
-
+<footer>© 2026 JE-MMO</footer>
+<script src="script.js"></script>
 </body>
 </html>
