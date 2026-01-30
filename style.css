@@ -73,13 +73,13 @@ nav ul li a:hover {
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: white;
+    color: #d32f2f;
     cursor: pointer;
 }
 
 /* ===== HERO ===== */
 .hero {
-    background: linear-gradient(120deg, #0b5fa5, c);
+    background: linear-gradient(120deg, #0b5fa5, #d32f2f);
     color: white;
     text-align: center;
     padding: 140px 20px;
