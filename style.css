@@ -61,7 +61,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white ;
+    color: #d32f2f;
     text-decoration: none;
     font-weight: 500;
 }
@@ -79,8 +79,8 @@ nav ul li a:hover {
 
 /* ===== HERO ===== */
 .hero {
-    background: linear-gradient(120deg, #0b5fa5, #d32f2f);
-    color: #d32f2f;
+    background: linear-gradient(120deg, #0b5fa5, c);
+    color: white;
     text-align: center;
     padding: 140px 20px;
 }
