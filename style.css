@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-/* Permet au footer de rester en bas */
 html, body {
     height: 100%;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f4f6f9; /* fond clair professionnel */
+    background: #f4f6f9;
     color: #333;
     line-height: 1.7;
     display: flex;
@@ -50,7 +49,6 @@ header .container {
 
 .logo-area img {
     height: 70px;
-    width: auto;
 }
 
 /* ===== NAVIGATION ===== */
@@ -75,18 +73,19 @@ nav ul li a:hover {
     font-size: 28px;
     color: #0b5fa5;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-/* ===== HERO ===== */
-.hero {
+/* ===== HERO COMMUN (toutes pages) ===== */
+.page-hero {
     background: linear-gradient(120deg, #0b5fa5, #d32f2f);
     color: white;
     text-align: center;
-    padding: 140px 20px;
+    padding: 120px 20px;
 }
 
-.hero h2 {
-    font-size: 42px;
+.page-hero h2 {
+    font-size: 40px;
     margin-bottom: 15px;
 }
 
@@ -107,7 +106,7 @@ nav ul li a:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-/* ===== CARTES ===== */
+/* ===== CARTES SERVICES / MVV ===== */
 .service-container, .mvv-container {
     display: flex;
     gap: 30px;
@@ -122,14 +121,9 @@ nav ul li a:hover {
     border-radius: 10px;
     border-top: 5px solid #0b5fa5;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: 0.3s;
 }
 
-.service-card:hover, .mvv-box:hover {
-    transform: translateY(-6px);
-}
-
-/* ===== CONTACT ===== */
+/* ===== FORMULAIRE ===== */
 .contact-form {
     max-width: 600px;
     margin: auto;
@@ -151,6 +145,8 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* ===== MENU MOBILE SLIDE ===== */
 @media (max-width: 768px) {
 
     nav {
@@ -178,72 +174,14 @@ footer {
     }
 
     nav.active {
-        max-height: 300px; /* hauteur du menu quand ouvert */
+        max-height: 300px;
     }
 
     .menu-toggle {
         display: block;
-        transition: 0.3s;
     }
-}
 
- .hero h2 {
+    .page-hero h2 {
         font-size: 28px;
     }
-}
-.page-header {
-    background: linear-gradient(120deg, #0b5fa5, #d32f2f);
-    color: white;
-    text-align: center;
-    padding: 100px 20px 60px;
-}
-
-.page-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.page-header p {
-    opacity: 0.9;
-}
-@media (max-width: 768px) {
-
-    nav ul li a {
-        color: white;   /* texte visible */
-        font-size: 18px;
-        display: block;
-        padding: 10px 0;
-    }
-
-    nav ul li a:hover {
-        background: rgba(255,255,255,0.2);
-        border-radius: 5px;
-    }
-}
-.reveal {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
-}
-
-.reveal.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-.reveal-left {
-    opacity: 0;
-    transform: translateX(-40px);
-    transition: all 0.8s ease;
-}
-
-.reveal-right {
-    opacity: 0;
-    transform: translateX(40px);
-    transition: all 0.8s ease;
-}
-
-.reveal-left.active,
-.reveal-right.active {
-    opacity: 1;
-    transform: translateX(0);
 }
