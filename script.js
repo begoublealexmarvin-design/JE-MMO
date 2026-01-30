@@ -1,8 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.getElementById("menu-toggle");
-    const navbar = document.getElementById("navbar");
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("navbar");
 
-    toggle.addEventListener("click", function () {
-        navbar.classList.toggle("active");
-    });
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
 });

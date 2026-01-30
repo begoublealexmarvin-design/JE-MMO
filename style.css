@@ -193,3 +193,17 @@ footer {
 .page-header p {
     opacity: 0.9;
 }
+@media (max-width: 768px) {
+
+    nav ul li a {
+        color: white;   /* texte visible */
+        font-size: 18px;
+        display: block;
+        padding: 10px 0;
+    }
+
+    nav ul li a:hover {
+        background: rgba(255,255,255,0.2);
+        border-radius: 5px;
+    }
+}
